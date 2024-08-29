@@ -1,0 +1,61 @@
+/* Container for the search bar */
+body {
+  background: linear-gradient(to right, #00b09b, #96c93d);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to right, #00b09b, #678c29);
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+/* Label styling */
+.leb {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Container for input and button */
+.main2 {
+  display: flex;
+  width: 100%;
+}
+
+/* Input field styling */
+.inputfield {
+  flex: 1;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.inputfield:focus {
+  border-color: #ff6b6b;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4757;
+}

@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-detail img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipe-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
